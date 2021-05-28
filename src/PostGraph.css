@@ -1,0 +1,132 @@
+.postgraph{
+    /* background-color:lightgray; */
+    flex: 1;
+    display:flex;
+    flex-direction:column;
+    margin-bottom: 30px;
+}
+
+.postgraph img{
+    object-fit: fit;
+    padding: 10px;
+    /* border:1px solid lightgray; */
+    height:250px;
+    border: 1px solid lightgray;
+}
+
+.postgraph__header{
+    display: flex;
+    margin-top: 40px;
+}
+
+.postgraph__headerleft{
+        flex: 0.60;
+        /* background-color:red; */
+        border: 1px solid lightgray;
+        padding: 5px;
+        margin-right: 10px;
+        margin-left: 10px;
+}
+
+.postgraph__headerleftbtn{
+    display: flex;
+    /* align-items:center; */
+    /* justify-content:center; */
+}
+
+
+.postgraph__headerleft button{
+    /* width: 100px; */
+    flex: 1;
+    height: 40px;
+    /* background-color:lightgray; */
+    background-color:#F4F4F6;
+
+    border: 1px solid black;
+    border-radius:3px;
+}
+.postgraph__headerleft button:hover{
+    background-color:black;
+    color:white;
+}
+
+.postgraph__headerleftpoints{
+    border: 1px solid black;
+    margin-top: 10px;
+    height: 40px;
+    display: flex;
+    align-items:center;
+    background-color:white;
+    justify-content:space-between;
+}
+.postgraph__headerleftpoints p{
+    padding:10px;
+}
+
+.postgraph__headerright{
+    flex: 0.40;
+    /* background-color:#f8f8f8; */
+
+    border: 1px solid lightgray;
+    position: relative;
+    margin-right: 10px;
+
+}
+
+.postgraph__headerright button{
+    /* background-color:lightgrey; */
+    background-color:#F4F4F6;
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+   position: absolute;
+   top: 10px;
+   left:70px;
+}
+
+.postgraph__headerright p{
+    margin-top:60px;
+    padding-left: 20px;
+    font-size: 8px;
+    font-weight: 300;
+    width:300px;
+}
+
+.postgraph__footer{
+    display: flex;
+    align-items: center;
+    /* background-color:#f8f8f8; */
+    border: 1px solid lightgray;
+    height: 60px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.postgraph__footer p{
+    padding:15px;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.postgraph__headerbtn{
+    display: flex;
+    align-items: center;
+    /* background-color:#f8f8f8; */
+    border: 1px solid lightgray;
+
+    height: 60px;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+.postgraph__headerbtn button{
+    background-color:#F4F4F6;
+    border: 1px solid black;
+    width: 250px;
+    height:30px;
+    border-radius: 6px;
+    margin-left: 100px;
+}

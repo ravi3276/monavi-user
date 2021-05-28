@@ -1,0 +1,76 @@
+.communitydes{
+    margin-left: 5px;
+    border: 1px solid lightgray;
+    height:68%;
+}
+
+.communityDes__title{
+    display: flex;
+    border: 1px solid lightgray;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.communityDes__title p{
+    padding-left: 25px;
+    font-family: Arial;
+}
+
+.communityDes__title button{
+    margin-right: 30px;
+
+}
+
+.communityDesbody__title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color:blue;
+    border: 1px solid lightgray;
+    padding: 10px;
+
+}
+
+.communityDesbody__titleleft{
+    flex: 0.50;
+}
+
+.title{
+    padding-left: 30px;
+}
+
+.communityDesbody__titleright{
+    display: flex;
+    align-items: center;
+    flex: 0.50;
+    justify-content: space-between;
+}
+
+.communityDesbody{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.communityDesbody p{
+    padding-left: 5px;
+    /* font-family: Arial; */
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.communityDesbody__left{
+    display: flex;
+    align-items: center;
+    flex: 0.5;
+}
+
+.communityDesbody__right{
+    display: flex;
+    align-items: center;
+    flex: 0.50;
+    justify-content: space-between;
+    padding-right: 30px;
+}

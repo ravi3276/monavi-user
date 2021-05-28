@@ -1,0 +1,42 @@
+.infoGame{
+    border: 1px solid lightgray;
+    margin-left: 5px;  
+    height:68%;
+  
+}
+
+.infoGame__body{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 200px;
+}
+
+.infoGame__left{
+    display: flex;
+    align-items: center;
+}
+
+.infoGame__left > .MuiSvgIcon-root{
+    font-size: 50px;
+    padding-right: 15px;
+}
+/* 
+.infoGame__leftpoints{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+*/
+
+.infoGame__leftpoints> h4{
+    font-weight: 400;
+    padding-bottom: 5px;
+    font-size:16px;
+}
+
+.infoGame__right > p{
+    font-weight: 400;
+    padding-bottom: 10px;
+    font-size:16px;
+}

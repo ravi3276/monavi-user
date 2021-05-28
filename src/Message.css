@@ -1,0 +1,138 @@
+.message{
+    flex: 0.25;
+    margin-right: 5px;
+    margin-left: 5px;
+    /* max-width:500px; */
+    /* background-color: red; */
+}
+
+.message__container{
+    display: flex;
+    flex-direction:column;
+    height:300px;
+    border: 1px solid lightgrey;
+    margin-top:7px;
+} 
+
+.message__containerheader{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding:13px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.message__containerheader h5{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+}
+
+.message__containerheader button{
+    background-color:white;
+    border: 1px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.message__bodymessage{
+    font-size: 8px;
+    font-weight:300;
+    margin: 10px; 
+}
+
+.message__date{
+    font-size: xx-small;
+    margin: 10px;
+    font-weight:300;
+}
+
+.message__chatarea{
+    border: 1px solid lightgrey;
+    margin-top: 7px;
+    width:500px;
+}
+
+.message__chatheader{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.message__chatheaderright{
+    display: flex;
+    align-items: center;
+    
+}
+
+.message__chatheader h4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+}
+
+.message__chatheaderright button{
+    background-color:white;
+    border: 1px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.message__chatbody{
+    margin-top:5px;
+}
+
+.message__chatbody h5{
+    background-color: #F09C2D;
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10px;
+    padding:10px;
+    font-weight:200;
+    margin-left: 5px;
+    margin-right: 5px;
+    
+}
+
+.message__chatbody p{
+    font-size: 10px;
+    padding:10px;
+    font-weight:300;
+}
+
+.message__chatbody p a{
+    margin-left: 5px;
+    color:blue;
+}
+
+.message__chatbodyheader1{
+    margin-top: 40px;
+    margin-bottom: 75px;
+}
+
+.message__chatbodyinput {
+    background-color:white;
+    height:50px;
+    border: 1px solid black;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.message__chatbodyinput input{
+    border:none;
+    margin-left: 20px;
+    outline: 0;
+}
+
+.message__chatbodyinput input::placeholder{
+    color:black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.message__chatbodyinput > .MuiSvgIcon-root{
+    color:lightgrey;
+    margin-right: 20px;
+}

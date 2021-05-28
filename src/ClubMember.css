@@ -1,0 +1,47 @@
+.clubMember{
+    border: 1px solid lightgray;
+    margin-left: 5px;
+    height:68%;
+    text-align: center;
+}
+
+.clubMember__form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top:200px;
+    padding-bottom:50px;
+}
+
+.clubMember__form h3{
+    padding-right: 30px;
+    font-weight:500;
+}
+
+.clubMember__form input{
+    padding: 5px;
+    width: 500px
+}
+
+.clubMember button{
+    margin: 10px;
+    width: 100px;
+    margin-bottom:50px;
+
+}
+
+.clubMember button:hover{
+    background-color: lightgray;
+}
+
+.clubMember p{
+    font-size:14px;
+    font-weight: 300;
+
+}
+
+.clubMember p strong{
+    padding-right: 20px;
+    font-size: 30px;
+    font-weight: 400;
+}

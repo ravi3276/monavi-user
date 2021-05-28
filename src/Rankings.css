@@ -1,0 +1,88 @@
+.rankings{
+    border: 1px solid lightgrey;
+    margin-left: 5px;
+    /* margin-top: 5px; */
+    height: 68%;
+
+}
+
+.rankings__row1,.rankings__row2,.rankings__row3{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid lightgrey;
+    justify-content: space-between;
+    padding:10px 0;
+
+}
+
+.rank1,.rank3,.rank5{
+    display: flex;
+    flex: 0.5;
+    flex-direction: column;
+    align-items: center;
+    border-right: 2px solid lightgrey;
+}
+
+.rank2,.rank4,.rank6{
+    display: flex;
+    flex: 0.5;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rank1__icon{
+    display: flex;
+    align-items: center;
+}
+
+.rank1__icon > .MuiSvgIcon-root{
+    padding-right: 5px;
+}
+
+.rank__profile{
+    display: flex;
+    align-items: center;
+    padding:10px 0;
+}
+
+.rank__profile > .MuiSvgIcon-root{
+    font-size: 45px;
+}
+
+.rank__profile h6{
+    font-size:15px;
+    font-weight:500;
+    padding-left: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.rank__profile h6 p{
+    padding-top: 5px;
+}
+
+.amount{
+    font-size:15px;
+    font-weight:800;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.rankings h4{
+    border: 2px solid grey;
+    padding:5px;
+    border-radius: 10px;
+}
+
+.ranking__btn{
+    /* text-align: center; */
+  position:relative;
+  padding-top: 20px;
+
+}
+
+.ranking__btn button{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left:43%;
+}

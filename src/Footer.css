@@ -1,0 +1,33 @@
+.footer{
+    margin-top:30px;
+    margin-bottom:30px;
+    margin-left: 30px;
+    font-weight: 300;
+
+}
+
+.footer__links{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-bottom:15px;
+}
+
+.links{
+        border-right: 2px solid black;
+        border-radius: 2px;
+
+}
+
+.footer__links a{
+ color:blue;
+ font-size: 10px;
+ padding: 15px;
+}
+
+.footer__copyright{
+    text-align:center;
+    font-weight: 300;
+    margin-bottom:15px;
+
+}

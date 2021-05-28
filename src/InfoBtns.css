@@ -1,0 +1,42 @@
+
+.infoBtns{
+    margin-top:5px;
+  }
+  
+  .infoBtns__header{
+      display: flex;
+      margin-left: 5px;
+      text-align: center;
+  }
+   
+  .infoBtns__btn1,.infoBtns__btn2,.infoBtns__btn3,.infoBtns__btn4{
+    flex: 0.2;
+      border: 1px solid lightgray;
+      font-weight: 400;
+      padding:10px;
+      padding-right: 20px;
+      padding-left: 20px;
+      font-size: 25px;
+      background-color: #F4F4F6;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  } 
+  
+  .infoBtns__btn5{
+      flex: 0.3;
+      border: 1px solid lightgray;
+       font-weight: 400;
+      padding:10px;
+      font-size: 25px;
+      padding-left: 30px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      background-color: #F4F4F6;
+  } 
+   
+
+  .infoBtns__header h2:hover{
+      background-color:white;
+      cursor: pointer;
+      border: none;
+      border-bottom: 2px solid red;
+  }
+  

@@ -1,0 +1,55 @@
+
+.rankingBtns{
+    margin-top:5px;
+  }
+  
+  .rankingBtns__header{
+      display: flex;
+      margin-left: 5px;
+  }
+   
+  .gamepoint{
+      border: 1px solid lightgray;
+      font-weight: 400;
+      padding:10px;
+      padding-right: 20px;
+      padding-left: 20px;
+      font-size: 25px;
+      background-color: #F4F4F6;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  } 
+  
+  .score{
+      flex: 1;
+      border: 1px solid lightgray;
+       font-weight: 400;
+      padding:10px;
+      font-size: 25px;
+      padding-left: 30px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      background-color: #F4F4F6;
+  } 
+  
+.help{
+    display: flex;
+    align-items: center;
+    border: 1px solid lightgray;
+    font-weight: 400;
+   padding:10px;
+   font-size: 25px;
+   padding-left: 30px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   background-color: #F4F4F6;
+}
+
+.help>.MuiSvgIcon-root{
+    padding-left: 5px;
+}
+
+  .rankingBtns__header h2:hover{
+      background-color:white;
+      cursor: pointer;
+      border: none;
+      border-bottom: 2px solid red;
+  }
+  

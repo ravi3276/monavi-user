@@ -1,0 +1,115 @@
+.roundBody{
+    flex:0.30;
+    background-color: white;
+}
+
+.roundBody__p1{
+    border: 1px solid black;
+    padding:3px;
+    cursor: pointer;
+    font-size:14px;
+    font-weight:300px;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.roundBody__table{
+    background-color:#f8f8f8;
+    margin: 5px;
+    height: 180px;
+    border: 1px solid lightgray;
+
+} 
+.roundBody__date {
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    padding:10px;
+}
+
+.roundBody__date h5{
+    font-weight: 300;
+}
+
+.roundBody__dates{
+    display:flex;
+    align-items: center;
+    justify-content:space-around; 
+    margin: 5px;
+    background-color:yellow;
+    border: 1px solid lightgray;
+
+} 
+
+.roundBody__dates p{
+    font-size: 10px;
+    padding:5px;
+    font-weight: 300;
+    width: 100%;
+    text-align:center;
+    margin:9px;
+}
+.roundBody__purchase{
+    display:flex;
+    align-items: center;
+    justify-content:space-around; 
+    margin: 5px;
+}
+.roundBody__purchase p{
+    font-size: 10px;
+    padding:5px;
+    font-weight: 300;
+    border: 1px solid black;
+    width: 100%;
+    text-align:center;
+}
+
+.roundBody__purchasecontainer{
+    background-color:white;
+    border: 1px solid lightgray;
+    margin: 5px;
+    margin-top: 10px;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content:center;
+    /* height: 350px; */
+}
+
+.roundBody__purchasebtn{
+    border: 1px solid black;
+    padding:3px;
+    cursor: pointer;
+    font-size:14px;
+    font-weight:300px;
+    border-radius: 5px;
+    text-align: center;
+    /* width: 100%; */
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.roundBody__purchasecontainer button{
+        background-color: #ff006e;
+        color:white;
+        border-radius: 7px;
+        width: 150px;
+        margin-top: 20px;
+        border: none;
+        height:30px;
+
+}
+
+.roundBody__indexrange{
+    margin-top:50px;
+}
+
+.roundBody__indexrange p{
+    padding-bottom: 20px;
+    font-size:10px;
+    font-weight: 300;
+    margin-left: 5px;
+    margin-bottom: 30px;
+}

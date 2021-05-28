@@ -1,0 +1,145 @@
+.header__top {
+    display: flex;   
+    align-items: center;
+    justify-content:space-between;
+    border-bottom: 1px solid grey;
+    padding-top: 20px;
+    padding-bottom:50px;
+}
+
+.header__top h1{
+margin-left: 50px;
+font-weight: 600;
+cursor: pointer;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.header__right > input{
+margin: 5px;
+padding:3px;
+border: px solid black;
+}
+
+.header__right button{
+margin-left: 5px;
+border: 1px solid black;
+border-radius: 3px;
+
+}
+
+.btn1{
+background-color:grey;
+}
+.btn2{
+background-color:lightgrey;
+}
+
+.header__right {
+padding-right: 40px;
+position: relative;
+}
+
+.header__right p{
+position: absolute;
+right:50px;
+font-size:xx-small;
+font-weight: 200;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.header__right h4{
+    display: flex;
+    align-items: center;
+    padding-right: 30px;
+}
+
+.header__right h4>.MuiSvgIcon-root{
+    margin-right: 5px;
+    cursor: pointer;
+
+}
+
+.header__right h4 small{
+    margin-left: 5px;
+    cursor: pointer;
+
+}
+
+.header__headings{
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    border-bottom: 1px solid grey;
+}
+
+.heading{
+    border-right: 3px solid grey;
+    border-radius: 3px;
+}
+
+.heading h3{
+    font-weight: 500;
+    /*  */
+    margin: 10px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.heading h3:hover{
+    color:grey;
+}
+
+.heading h3:active{
+    color: lightgrey;
+} 
+
+.heading1 h3{
+    font-weight: 500;
+    margin: 10px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.heading1 h3:hover{
+    color:grey;
+}
+.heading1 h3:active{
+    color: lightgrey;
+}
+
+.header__body{
+    display: flex;
+}
+
+.dropdown{
+        position: relative;
+}
+
+.dropdown__icon{
+    position: absolute;
+    top: -15px;
+    right: 0;
+    font-size: 30px !important;
+    cursor: pointer;
+
+}
+
+.dropdown__menu{
+    top: 40px !important;
+    left: -25px !important;
+}
+
+.dropdown__logo{
+    padding:3px;
+    /* opacity: 0.8; */
+}

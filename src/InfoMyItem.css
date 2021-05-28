@@ -1,0 +1,21 @@
+.infoMyItem {
+    border: 1px solid lightgray;
+    margin-left:5px;
+    height:68%;
+}
+
+.infoMyItem > h3{
+    border-bottom: 2px solid lightgray;
+    padding-top:25px;
+    padding-left: 25px;
+    font-weight: 500;
+    margin-bottom: 50px;
+    padding-bottom: 10px;
+}
+
+.infoMyItem__top{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    padding:20px
+}

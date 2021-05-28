@@ -1,0 +1,19 @@
+.clubBenefits{
+    border: 1px solid lightgray;
+    margin-left: 5px;
+    height:68%;
+}
+
+.clubBenefits > h2 {
+    padding: 40px 15px;
+    font-weight:400;
+}
+
+.list{
+    padding-left: 70px;
+}
+
+
+ul > li {
+    font-weight:300;
+}

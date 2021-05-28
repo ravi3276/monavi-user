@@ -1,0 +1,21 @@
+.view{
+    border: 1px solid lightgray;
+    margin-top:5px;
+    margin-left:5px;
+    height: 60%;
+    padding:50px 150px 50px 20px;
+    
+}
+
+.view h4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding:15px 0;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.view p{
+    font-size:8px;
+    line-height:2;
+    font-weight: 400;
+}  

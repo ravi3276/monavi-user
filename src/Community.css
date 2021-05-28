@@ -1,0 +1,41 @@
+
+.community{
+    margin-top:5px;
+  }
+  
+  .community__header{
+      display: flex;
+      margin-left: 5px;
+      text-align: center;
+  }
+   
+  .community__btn1{
+    flex: 0.5;
+      border: 1px solid lightgray;
+      font-weight: 400;
+      padding:10px;
+      padding-right: 20px;
+      padding-left: 20px;
+      font-size: 25px;
+      background-color: #F4F4F6;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  } 
+  
+  .community__btn2{
+      flex: 0.5;
+      border: 1px solid lightgray;
+       font-weight: 400;
+      padding:10px;
+      font-size: 25px;
+      padding-left: 30px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      background-color: #F4F4F6;
+  } 
+
+  .community__header h2:hover{
+      background-color:white;
+      cursor: pointer;
+      border: none;
+      border-bottom: 2px solid red;
+  }
+  

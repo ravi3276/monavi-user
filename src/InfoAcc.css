@@ -1,0 +1,25 @@
+.infoAcc{
+    border: 1px solid lightgrey;
+    margin-left: 5px;
+    height: 68%;
+}
+
+.infoAcc > p{
+    padding:10px;
+    border-bottom: 2px solid lightgrey;
+}
+
+.date{
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.acc__info{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.acc__info > p{
+    padding: 20px 0;
+}
